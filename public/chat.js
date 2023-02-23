@@ -1,5 +1,5 @@
 //Make connection
-var socket = io.connect('http://localhost:5000');
+var socket = io.connect('https://chatsalma.herokuapp.com/');
 
 //Query DOM
 var mensaje = document.getElementById('mensaje');
